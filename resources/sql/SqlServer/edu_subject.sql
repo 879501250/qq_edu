@@ -1,0 +1,12 @@
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757564796930', '基本运算能力', '0                  ', 0, '2021-04-18 15:59:57.410', '2021-04-18 15:59:57.410'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757678043138', '计数', '1383691757564796930', 0, '2021-04-18 15:59:57.437', '2021-04-18 15:59:57.437'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757753540610', '代数', '1383691757564796930', 0, '2021-04-18 15:59:57.457', '2021-04-18 15:59:57.457'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757787095042', '数据', '1383691757564796930', 0, '2021-04-18 15:59:57.463', '2021-04-18 15:59:57.463'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757824843777', '空间想象能力', '0                  ', 0, '2021-04-18 15:59:57.473', '2021-04-18 15:59:57.473'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1383691757850009602', '几何', '1383691757824843777', 0, '2021-04-18 15:59:57.477', '2021-04-18 15:59:57.477'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569814433794', '测量', '1383691757824843777', 0, '2021-04-19 15:33:49.660', '2021-04-19 15:33:49.660'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569843793922', '逻辑思维能力', '0                  ', 0, '2021-04-19 15:33:49.667', '2021-04-19 15:33:49.667'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569864765441', '推理', '1384047569843793922', 0, '2021-04-19 15:33:49.673', '2021-04-19 15:33:49.673'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569894125570', '数学启蒙', '0                  ', 0, '2021-04-19 15:33:49.683', '2021-04-19 15:33:49.683'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569944457218', '游戏', '1384047569894125570', 0, '2021-04-19 15:33:49.693', '2021-04-19 15:33:49.693'); GO
+INSERT INTO [edu_subject]([id], [title], [parent_id], [sort], [gmt_create], [gmt_modified]) VALUES ('1384047569973817346', '启蒙', '1384047569894125570', 0, '2021-04-19 15:33:49.700', '2021-04-19 15:33:49.700'); GO
