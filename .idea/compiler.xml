@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service_front" />
+        <module name="common_utils" />
+        <module name="api_gateway" />
+        <module name="service_oss" />
+        <module name="service_acl" />
+        <module name="service_base" />
+        <module name="service_statistics" />
+        <module name="service_edu" />
+        <module name="spring_security" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api_gateway" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common_utils" target="1.8" />
+      <module name="infrastructure" target="1.8" />
+      <module name="qq_edu" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service_acl" target="1.8" />
+      <module name="service_base" target="1.8" />
+      <module name="service_edu" target="1.8" />
+      <module name="service_front" target="1.8" />
+      <module name="service_oss" target="1.8" />
+      <module name="service_statistics" target="1.8" />
+      <module name="serviceacl" target="1.8" />
+      <module name="spring_security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gateway" options="-parameters" />
+      <module name="common" options="" />
+      <module name="common_utils" options="-parameters" />
+      <module name="qq_edu" options="" />
+      <module name="service" options="" />
+      <module name="service_acl" options="-parameters" />
+      <module name="service_base" options="-parameters" />
+      <module name="service_edu" options="-parameters" />
+      <module name="service_front" options="-parameters" />
+      <module name="service_oss" options="-parameters" />
+      <module name="service_statistics" options="-parameters" />
+      <module name="serviceacl" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qq.frontservice.mapper.CrmBannerMapper">
+
+    <!-- 获取排在前5位且未删除的幻灯片 -->
+    <select id="getBanners" resultType="com.qq.frontservice.entity.CrmBanner">
+        select top 5 * from crm_banner where is_deleted &lt;> 1 order by sort
+    </select>
+
+</mapper>

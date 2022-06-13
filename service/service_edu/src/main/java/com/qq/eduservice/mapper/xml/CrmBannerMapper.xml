@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qq.eduservice.mapper.CrmBannerMapper">
+
+    <!-- 查询排序在前一项的幻灯片 -->
+    <select id="getForwardBanner" resultType="com.qq.eduservice.entity.CrmBanner">
+        select top 1 * from crm_banner where sort &lt; #{sort} order by sort desc
+    </select>
+
+    <!-- 查询排序在后一项的幻灯片 -->
+    <select id="getBackwardBanner" resultType="com.qq.eduservice.entity.CrmBanner">
+        select top 1 * from crm_banner where sort > #{sort} order by sort
+    </select>
+
+    <!-- 将指定id的幻灯片排序修改为指定的sort -->
+    <select id="updateBannerSort" resultType="com.qq.eduservice.entity.CrmBanner">
+        update crm_banner set sort = #{sort} where id = #{id}
+    </select>
+
+    <!-- 获取所有的幻灯片数量 -->
+    <select id="getCount" resultType="java.lang.Integer">
+        select count (*) from crm_banner
+    </select>
+
+</mapper>

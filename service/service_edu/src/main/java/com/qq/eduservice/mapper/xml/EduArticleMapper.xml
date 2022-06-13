@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qq.eduservice.mapper.EduArticleMapper">
+
+    <!-- 获取浏览量前4高的文章 -->
+    <select id="getHotArticles" resultType="com.qq.eduservice.entity.EduArticle">
+        select top 4 * from edu_article where is_deleted = 0 order by view_count desc
+    </select>
+</mapper>
